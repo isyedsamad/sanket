@@ -112,8 +112,8 @@ public class SOSActivity extends AppCompatActivity {
             JSONObject json = new JSONObject();
             json.put("name", Build.MODEL);
             json.put("msg", msg);
-            json.put("latitude", currentLat != null ? currentLat : JSONObject.NULL);
-            json.put("longitude", currentLon != null ? currentLon : JSONObject.NULL);
+            json.put("latitude", currentLat != null ? currentLat : 0);
+            json.put("longitude", currentLon != null ? currentLon : 0);
 
             AdvertisingOptions options =
                     new AdvertisingOptions.Builder().setStrategy(Strategy.P2P_CLUSTER).build();

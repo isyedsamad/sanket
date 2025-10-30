@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/deviceName"
         android:text="Device Name"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:layout_marginBottom="2dp"
         android:textColor="@color/white"
@@ -18,7 +18,7 @@
     <TextView
         android:id="@+id/deviceMsg"
         android:text="SOS message"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:textColor="@color/red"
         android:layout_marginBottom="1dp"
         android:textStyle="bold"
