@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:text="Device Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/deviceMsg"
+        android:text="SOS message"
+        android:textSize="14sp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Click on this if you are going to help!"
+        android:textSize="12dp"
+        android:textColor="#777"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/deviceLocation"
+        android:text="Lat: 0.0, Lon: 0.0"
+        android:textSize="13sp"
+        android:textColor="#555"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnViewMap"
+        android:text="View on Map"
+        android:textColor="#fff"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
