@@ -1,4 +1,4 @@
-<h1 align="center">Sanket - an offline SOS Mesh Chat</h1>
+<h1 align="center">Sanket - an offline SOS Mesh App</h1>
 
 <p align="center">
   <b>Offline emergency communication app powered by Google Nearby Connections API</b><br>
